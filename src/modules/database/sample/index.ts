@@ -1,0 +1,16 @@
+import {
+  INIT_AUTH_API_PATH,
+  INIT_PERMISSION_API_PATH,
+  INIT_ROLE_API_PATH,
+  INIT_USER_API_PATH,
+} from './modules';
+
+export const ADMIN_ROLE = 'ADMIN';
+export const USER_ROLE = 'USER';
+
+export const INIT_API_PATH = [
+  INIT_AUTH_API_PATH,
+  INIT_PERMISSION_API_PATH,
+  INIT_ROLE_API_PATH,
+  INIT_USER_API_PATH,
+].flat(1);
